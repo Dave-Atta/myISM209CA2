@@ -21,6 +21,7 @@ def home():
 def register():
     return render_template('register.html')
 
+
 first_name = request.form['first_name']
 surname = request.form['surname']
 date_of_birth = request.form['date_of_birth']
