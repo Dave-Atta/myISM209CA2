@@ -1,0 +1,39 @@
+navigation-bar div {
+    padding: 10px 15px 10px 20px;
+}
+
+.navigation-bar {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.navigation-bar-left, .navigation-bar-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation-bar-left{
+    flex:2;
+}
+
+.navigation-bar-right{
+    flex:1;
+    transition: font-size 2s;
+}
+
+.navigation-bar-right{
+    justify-content: flex-end;
+}
+
+.content-with-background-color{
+    min-height: 180px;
+    background-color: #eeeeee;
+    font-size: 1.5em;
+    border: 1px solid #eeeeee;
+    padding: 10px 15px 10px 20px;
+    /*margin: 10px;*/
+    color: #000000;
+    opacity: .8;
+}
